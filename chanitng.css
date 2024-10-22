@@ -19,7 +19,7 @@ h1{
 border: 1px solid gray;
 border-radius:4%;
 position: absolute;
-margin-left: 40%;
+margin-left: 20px;
 box-shadow: 10px 10px 5px 12px rgb(182, 192, 195);
 padding: 20px;
     display:grid;
