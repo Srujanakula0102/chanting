@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merge Excel Files</title>
+    <link rel="stylesheet" href="chanitng.css" >
+</head>
+<body>
+    <h1>Upload Excel Files to Merge</h1>
+    <div>
+    <form id="uploadForm">
+        <h2> <input type="file" id="fileInput" multiple></h2>
+       
+      <h2> <button type="button" onclick="mergeFiles()">Merge Files</button></h2>
+     <h2> <a id="downloadLink" style="display:none;">Download Merged File</a></h2>
+    </form>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
+    <script src="merge.js"></script>
+</body>
+</html>
