@@ -1,0 +1,34 @@
+body{
+    padding: 0%;
+    display: grid;
+}
+
+h1{
+    text-align: center;
+    color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+
+    position:static;
+    font-family: 'Courier New', Courier, monospace;
+ 
+}
+#uploadForm{
+    
+    
+    background-color: rgb(55, 228, 228);
+border: 1px solid gray;
+border-radius:4%;
+position: absolute;
+margin-left: 20px;
+box-shadow: 10px 10px 5px 12px rgb(182, 192, 195);
+padding: 20px;
+    display:grid;
+    text-align: center;
+   
+    
+
+}
+h2{
+    font-size: large;
+    padding: 10px;
+}
